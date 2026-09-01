@@ -25,7 +25,7 @@ Running DNS infrastructure on a Raspberry Pi is fantastic, but SD card corruptio
 
 Use the Raspberry Pi Imager to burn the adguard-home-ro image.
 
-1. **Download** the latest [`adguard-home-ro-1.0.0.img.gz`](https://github.com/mike-heckman/adguard-home-ro/releases/download/v1.0.0/adguard-home-ro-1.0.0.img.gz) file from the [Releases](https://github.com/mike-heckman/adguard-home-ro/releases) page.
+1. **Download** the latest [`adguard-home-ro-1.0.0.img.gz`](https://github.com/mike-heckman/adguard-home-ro/releases/download/1.0.0/adguard-home-ro-1.0.0.img.gz) file from the [Releases](https://github.com/mike-heckman/adguard-home-ro/releases) page.
 2. Open **Raspberry Pi Imager**.
 3. Under **CHOOSE OS**, scroll down to **Use custom** and select your downloaded `adguard-home-ro-1.0.0.img.gz`.
 4. Under **CHOOSE STORAGE**, select your target SD card.
