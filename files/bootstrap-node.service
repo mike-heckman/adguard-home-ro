@@ -1,0 +1,12 @@
+[Unit]
+Description=Bootstrap Node from Boot Partition
+After=NetworkManager.service
+Before=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/bootstrap-node.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

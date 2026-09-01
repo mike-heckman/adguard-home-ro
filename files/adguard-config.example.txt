@@ -1,0 +1,29 @@
+# adguard-config.txt
+# This file is sourced by bash on boot. Comments starting with '#' are ignored.
+
+# Adguard Pi's Web UI Credentials
+ADGUARD_USERNAME="admin"
+# Password can be plaintext or bcrypt hash (plaintext will be hashed on first boot and updated here)
+ADGUARD_PASSWORD="my_super_secret_password"
+
+# Adguard Pi's Hostname
+NODE_HOSTNAME="adguard1"
+# Adguard Pi's Static IP
+STATIC_IP="172.16.2.20"
+# Gateway IP
+ROUTER_IP="172.16.2.1"
+
+
+# AdGuard Sync IP address and Port
+SYNC_IP="172.16.2.39"
+SYNC_PORT="8080"
+
+# Auto-Update Cron Schedule (Optional)
+# If set, the Pi will remount read-write, update packages, and reboot
+# Example: "0 3 * * 0" (Every Sunday at 3:00 AM)
+UPDATE_CRON="0 3 * * 0"
+# Biweekly example with a second pi that runs an alternate schedule:
+# At 3am on the 1st and 15th of every month
+#UPDATE_CRON="0 3 1,15 * *"
+# At 3 am on the 7th and 21st of every month
+#UPDATE_CRON="0 3 7,21 * *"
