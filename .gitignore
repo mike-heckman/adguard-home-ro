@@ -28,6 +28,9 @@ ENV/
 env.bak/
 venv.bak/
 
-adguard-home-ro-1.0.0.img.gz
+adguard-home-ro-*.img
+adguard-home-ro-*.img.gz
 
 my-configs
+
+logs/

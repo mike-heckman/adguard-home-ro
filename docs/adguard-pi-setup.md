@@ -129,7 +129,7 @@ Now that the OS is perfectly configured, it's time to scrub the unique data and 
    chmod +x pishrink.sh
    sudo ./pishrink.sh -s -z ~/adguard-home-ro.img
    ```
-   You now have a highly compressed `adguard-home-ro-1.0.0.img.gz` ready to share.
+   You now have a highly compressed `adguard-home-ro-1.1.0.img.gz` ready to share.
 
 ---
 

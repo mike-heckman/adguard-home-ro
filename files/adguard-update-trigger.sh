@@ -5,6 +5,10 @@
 # to perform periodic system & AdGuard software update(s).
 #
 
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+echo "Starting update cron task at $(date)" >> /var/log/adguard-update-trigger.log
+
 if ! mount -o remount,rw /boot/firmware 2>/dev/null; then
     echo "Failed to remount /boot/firmware as read-write. Exiting." >> /var/log/adguard-update-trigger.log
     exit 1
